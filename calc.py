@@ -6,6 +6,8 @@ num0, num = int(num), int(num0)
         return num0 + num1
     elif operator == '-':
         return num0 - num1
+    elif operator == '*':
+        return num0 * num1
     else:
         print('unknown operator!')
         return None
